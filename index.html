@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Grupo H - Diseño Web">
-    <link rel="stylesheet" href="estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Grupo H - Diseño Web" />
+    <link rel="stylesheet" href="estilo.css" />
     <title>DOG SHOP</title>
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- Header -->
-    <header>
-        <h1> Tienda para tus Mascotas 
-            <br><br>
-        </h1>
-        <!-- menu de navegacion -->
-        <nav class="nav_menu">
-                <div class="logo_container">
-                    <a href="index.html" aria-label="Inicio - Dog SHOP"> 
-                        <img class="imagen_logo" src="./img/logo_mascota.avif" alt="logo de la tienda"></a>
-                    <ul class="menu_links">
-                        <li class="item_menu"><a href="#Productos">Productos</a></li>
-                        <li class="item_menu"><a href="#quienes-somos"> Quienes somos</a> </li>
-                        <li class="item_menu"><a href="./contacto.html" target="_blank">Contacto</a></li>
-                    </ul>
-                </div>
-        </nav>
-    </header>
+   <header>
+    <div class="header_top">
+      <a href="index.html" aria-label="Inicio - Dog SHOP">
+        <img class="imagen_logo" src="./img/logo_mascota.avif" alt="Logo Dog Shop" />
+      </a>
+      <h1>Tienda para tus Mascotas</h1>
+    </div>
+    <!-- menú de navegación -->
+    <nav class="nav_menu">
+      <ul class="menu_links">
+        <li><a href="#Productos">Productos</a></li>
+        <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+        <li><a href="./contacto.html" target="_blank">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
     <!-- Seccion principal -->
     <main class="main_content">
-        <!-- Banner -->
-        <section id="banner">
-            <img class="imagen_banner" src="./img/banner_mascota.jpg" alt="banner de mascotas">
-        </section>
-        <br><br>
-    
-        <article id="quienes-somos">
-            <h2>Te contamos quienes somos</h2>
-            <p> Somos una tienda especializada en ofrecer los mejores productos y la más alta calidad para que tu mascota reciba el cuidado, el confort y la diversión que se merece. Desde alimento a muy buen precio hasta juguetes, accesorios, productos de higiene y mucho más, todo lo que necesitas para mantener a tu compañero feliz y saludable lo encontrarás aquí.</p>
-        </article>
-        <br><br>
-       <!--Seccion de productos -->
-        <section id="Productos">
-            <h2> Productos para tus mascotas</h2>
-            <table style="border: 2px solid;">
-                <thead>
-                    <tr>
-                        <th> Producto</th>
-                        <th> Descripcion</th>
-                        <th>Precio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Alimento para perros </td>
-                        <td> Bolsa de 5kg </td>
-                        <td> $5000</td>
-                    </tr>
-                    <tr>
-                        <td> Alimento para gatos </td>
-                        <td> Bolsa de 5kg</td>
-                        <td> $5500</td>
-                    </tr>
-                    <tr>
-                        <td> Collar </td>
-                        <td> Collar para tu mascota</td>
-                        <td> $4500</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+      <!-- Banner -->
+      <section id="banner">
+        <img
+          class="imagen_banner"
+          src="./img/banner_mascota.jpg"
+          alt="banner de mascotas"
+        />
+      </section>
 
+        <!-- Quienes somos -->
+      <article id="quienes-somos">
+        <h2>Te contamos quienes somos</h2>
+        <p>
+          Somos una tienda especializada en ofrecer los mejores productos y la
+          más alta calidad para que tu mascota reciba el cuidado, el confort y
+          la diversión que se merece. Desde alimento a muy buen precio hasta
+          juguetes, accesorios, productos de higiene y mucho más, todo lo que
+          necesitas para mantener a tu compañero feliz y saludable lo
+          encontrarás aquí.
+        </p>
+      </article>
+
+      <!--Seccion de productos -->
+      <section class="productos" id="Productos">
+        <h2>Productos para tus mascotas</h2>
+
+        <table class="table_productos">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Descripcion</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alimento para perros</td>
+              <td>Bolsa de 5kg</td>
+              <td>$5000</td>
+            </tr>
+            <tr>
+              <td>Alimento para gatos</td>
+              <td>Bolsa de 5kg</td>
+              <td>$5500</td>
+            </tr>
+            <tr>
+              <td>Collar</td>
+              <td>Collar para tu mascota</td>
+              <td>$4500</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
-   
+
     <!-- Footer -->
-    <footer class="footer"> 
-        <h2>Contacto y más información</h2>
-        <p>Grupo H - Diseño Web</p>
-        <p>2023</p>
-        <p>Todos los derechos reservados</p>
-         
-        <!--Seccion de informacion adicional -->
-         <aside> 
-            <h3>Info Adicional</h3>
-            <p>Si quieres mas informacion y enterarte de otras ofertas, contactate con nosotros</p>
-        </aside>
+    <footer class="footer">
+      <h2>Contacto y más información</h2>
+      <p>Grupo H - Diseño Web</p>
+      <p>2023</p>
+      <p>Todos los derechos reservados</p>
+
+      <!--Seccion de informacion adicional -->
+      <aside>
+        <h3>Info Adicional</h3>
+        <p>
+          Si quieres mas informacion y enterarte de otras ofertas, contactate
+          con nosotros
+        </p>
+      </aside>
     </footer>
-</body>
+  </body>
 </html>
